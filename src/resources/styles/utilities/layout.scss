@@ -1,0 +1,30 @@
+.container {
+  @apply w-full px-16 mx-auto;
+
+  @screen sm {
+    @apply max-w-xl;
+  }
+
+  @screen md {
+    @apply max-w-3xl;
+  }
+
+  @screen lg {
+    max-width: 1200px;
+  }
+  @screen xl {
+    @apply px-12;
+  }
+  @screen xxl {
+    max-width: 1440px;
+  }
+
+  &--lg {
+    @screen md {
+      @apply max-w-5xl;
+    }
+    @screen xl {
+      max-width: 1200px;
+    }
+  }
+}

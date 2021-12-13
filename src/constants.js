@@ -1,0 +1,1 @@
+export const EVENT_TIME_STRING = '2021-12-10T23:59:59'

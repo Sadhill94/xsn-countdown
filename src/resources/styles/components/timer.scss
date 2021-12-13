@@ -1,0 +1,47 @@
+.timer {
+  .timer-numbers {
+    & > div {
+      @apply flex items-center justify-between px-8 w-full;
+      @screen sm {
+        @apply w-11/12;
+      }
+      @screen md {
+        @apply w-full;
+      }
+    }
+
+    h2 {
+      font-size: 9rem;
+      @apply w-full text-left;
+
+      @screen lg {
+        font-size: 13rem;
+        @apply text-center;
+        span {
+          @apply hidden;
+        }
+      }
+      @screen xl {
+        font-size: 18rem;
+      }
+    }
+
+    span {
+      @extend .h2;
+      font-size: 9rem;
+      @apply flex-none w-32 mx-auto;
+
+      @screen lg {
+        @apply hidden;
+      }
+    }
+  }
+
+  h5 {
+    @apply text-white text-center font-normal w-full;
+    font-size: 5rem;
+    @screen lg {
+      font-size: 4rem;
+    }
+  }
+}

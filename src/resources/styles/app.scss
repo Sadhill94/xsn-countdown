@@ -1,0 +1,17 @@
+/*----------------------------------------*\
+  BASE
+\*----------------------------------------*/
+@import 'tailwindcss/base';
+@import './base/index';
+
+/*----------------------------------------*\
+  COMPONENTS
+\*----------------------------------------*/
+@import 'tailwindcss/components';
+@import './components/index';
+
+/*----------------------------------------*\
+  Utilities
+\*----------------------------------------*/
+@import 'tailwindcss/utilities';
+@import './utilities/index';
